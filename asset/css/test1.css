@@ -109,12 +109,12 @@ nav .nav li a:hover {
     justify-content: space-around;
     align-items: center;
     padding-top: 7rem;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .container .hero-pic {
-    width: 350px;
-    height: 350px;
+    width: 375px;
+    height: 375px;
     border-radius: 50%;
     overflow: hidden;
     border: 15px solid #444;

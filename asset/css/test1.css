@@ -803,7 +803,7 @@ footer {
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
-        padding-top: 2rem;
+        padding-top: 7rem;
     }
 
     .home-content {
@@ -862,11 +862,11 @@ footer {
     }
 
     #experience .section-p1 {
-        margin-top: 580px;
+        margin-top: 500px;
     }
 
     #projects .section-p1 {
-        margin-top: 1300px;
+        margin-top: 1000px;
     }
 
 
@@ -875,7 +875,7 @@ footer {
         flex-direction: column;
         align-items: left;
         text-align: left;
-        margin-top: 1800px;
+        margin-top: 1400px;
 
     }
     #contact .contact-text h2 {

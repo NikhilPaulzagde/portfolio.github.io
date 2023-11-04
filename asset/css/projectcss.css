@@ -39,6 +39,7 @@ header {
 .my-custom-div {
     background-color: #081b29;
     height: 1000px;
+	padding-right:15px;
 
 }
 .btn-box1 {

@@ -508,7 +508,7 @@ section {
     color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .experience-detail-container {
@@ -518,20 +518,22 @@ section {
     max-width: 1200px;
     /* Adjust the maximum width as needed */
     
-    margin-bottom: 20px;
+    margin-bottom: 00px;
     /* Center the container horizontally */
 }
 
 .article-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 2rem;
     justify-content: center;
     /* Center the articles within the container */
     max-width: 600px;
     /* Adjust the maximum width as needed */
     margin: 0 auto;
     /* Center the container horizontally */
+	margin-bottom:20px;
+
 }
 
 .article {

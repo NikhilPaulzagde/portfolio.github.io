@@ -109,12 +109,12 @@ nav .nav li a:hover {
     justify-content: space-around;
     align-items: center;
     padding-top: 7rem;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .container .hero-pic {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     overflow: hidden;
     border: 15px solid #444;
@@ -375,7 +375,7 @@ section {
 
 #about {
     position: relative;
-    margin-bottom: 300px;
+    margin-bottom: 260px;
 }
 #about h1{
 	padding-bottom:1px;

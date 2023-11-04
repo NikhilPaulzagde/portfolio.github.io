@@ -108,13 +108,13 @@ nav .nav li a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 7rem;
+    padding-top: 8rem;
     margin-bottom: 30px;
 }
 
 .container .hero-pic {
-    width: 375px;
-    height: 375px;
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     overflow: hidden;
     border: 15px solid #444;

@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+header {
+    background-color: #051129;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    /* margin-bottom: 20px; */
+
+}
+
+.header span {
+    color: rgb(10, 218, 177);
+    transition: transform 0.2s ease-in-out;
+}
+
+.header:hover span {
+    transform: scale(1.5);
+}
+
+
+.body {
+    color: black;
+    overflow-x: hidden;
+    background: #081b29;
+    font-family: 'Helvetica';
+}
+
+.color {
+    background: #081b29;
+}
+
+.my-custom-div {
+    background-color: #081b29;
+    height: 1000px;
+
+}
+.btn-box1 {
+    display: inline-block;
+    padding: 2.5px 5px;
+    background: rgb(25, 238, 195);
+    border-radius: 20px;
+    font-size: 1px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 0 3px rgb(10, 218, 177),
+        0 0 15px rgb(64, 69, 68);
+    margin-bottom: 5px;
+    border-color: #57eea7;
+}
+
+.btn-box1:hover {
+
+    box-shadow: 0 0 5px rgb(64, 69, 68),
+        0 0 25px rgb(10, 218, 177), 0 0 5px rgb(64, 69, 68),
+        0 0 100px rgb(10, 218, 177), 0 0 200px rgb(10, 218, 177);
+
+
+}
+
+.project-sec {
+    background: #081b29;
+    background-color: #081b29;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.project-container {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.custom-card {
+    max-width: 90%;
+    /* Set the desired width */
+    max-height: auto;
+    /* Set the desired height */
+    margin-top: 30px;
+    margin-left: 70px;
+    transition: transform 0.3s ease-in-out;
+
+
+}
+
+.image-padding {
+    padding: 10px;
+    /* Adjust the padding value as needed */
+	
+}
+
+.custom-card:hover {
+    transform: scale(1.05);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: transparent;
+    /* Set the background color to transparent */
+    color: #1699e0;
+    /* Change the text color to red */
+    border: none;
+    /* Remove the border or adjust it as needed */
+    position: relative;
+    transition: color 0.3s;
+    /* Add a transition effect for text color */
+}
+
+/* Add the pop-out effect on hover */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    transform: scale(1.2);
+    /* Pop-out effect on hover */
+}
+
+
+/* Style the arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+    /* Remove the default arrow background image */
+    font-size: 30px;
+    /* Adjust the size of the arrows */
+}
+#myCarousel .
+/* Style the carousel indicators */
+.carousel-indicators {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+/* Style the carousel indicator dots */
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    background-color: #999999;
+    /* Set the dot color */
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* Add a transition effect for dot color */
+}
+
+
+
+/* Add a hover effect to the carousel indicator dots */
+.carousel-indicators li:hover {
+    background-color: #FF0000;
+    /* Change dot color on hover */
+}
+
+
+.collapse {
+    color: black;
+}
+
+.custom-accordion-container {
+    max-width: 850px;
+    /* Adjust the maximum width as needed */
+    max-height: auto;
+    /* Adjust the maximum height as needed */
+    background-color: #FF0000;
+    margin-bottom: 10px;
+}
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+footer {
+    margin-top: auto;
+    color: #fff;
+    text-align: center;
+
+}
+.btn-info {
+    display: inline-block;
+        /* padding: 5px 5px; */
+        background: rgb(25, 238, 195);
+        border-radius: 15px;
+        font-size: 14px;
+        color: #081b29;
+        letter-spacing: 2px;
+        text-decoration: none;
+        font-weight: 600;
+        box-shadow: 0 0 5px rgb(10, 218, 177),
+            0 0 25px rgb(64, 69, 68);
+        margin-bottom: 7px;
+        border-color: #57eea7;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0077b6; /* New background color on hover */
+  }
+  
+  /* Button active (when clicked) effect */
+  button:active {
+    background-color: #005a8a; /* New background color when clicked */
+  }
+  

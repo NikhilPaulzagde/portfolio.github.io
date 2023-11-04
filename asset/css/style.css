@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	min-height:100vh;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #081b29;
+}
+.about_container{
+    align-items:center;
+    width: 10%;
+    padding: 50px 8%;
+    
+    
+
+}
+.imageSection{
+    grid-area: imageSect;
+    
+}
+.infoSection{
+    grid-area: infoSect;
+    width: 700px;
+}
+.skillSection{
+    grid-area: skillSect;
+	padding-left:70px;
+}
+
+.about_container .about_contents{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-gap :10px;
+    grid-template-areas: 'imageSect infoSect'
+                        'skillSect skillSect';
+
+}
+.about_contents .imageSection {
+    position: relative;
+    min-width: 300px;
+    height: 380px;
+}
+.imageSection img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+}
+
+.about_contents .imageSection::after{
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 80%;
+    outline: 3px solid  rgb(10, 218, 177);
+    top: 15px;
+    left: 15px;
+    z-index: 1;
+}
+.infoSection h1{
+    color: #dedce1;
+    font-size: 30px;
+    font-family:  Helvetica;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.infoSection span{
+    color: rgb(10, 218, 177);
+}
+
+.infoSection h1::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 110%;
+    left: 0;
+    background-color: #aaabb0;
+
+}
+
+.infoSection h1::after{
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 3px;
+    top: calc(110% - 1px);
+    left: 0px;
+    background-color: rgb(10, 218, 177);
+}
+.infoSection h2{
+    font-family:  Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    color: #787cb5;
+    padding: 14px 0px 15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+
+}
+.infoSection p{
+    color: #aaabb0;
+    font-size: 15px;
+    line-height: 1.2;
+    text-align: justify;
+    padding-bottom: 8px;
+}
+.personalInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px 20px ;
+    margin-top: 14px;
+    padding-bottom: 10px;
+   
+}
+
+.personalInfo div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.personalInfo div span{
+    color: #aaabaa;
+    letter-spacing: 1px ;
+    /* margin-right: 6px; */
+}
+.btn-group {
+    /* margin: 30px ; */
+    margin-bottom: 50px;
+	width:400px;
+}
+
+.btn.active {
+    border-color: rgb(10, 218, 177);
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 12px 20px ;
+    background: rgb(10, 218, 177);
+    border-radius: 40px;
+    font-size: 19px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration:  none;
+    font-weight: 600;
+    text-align: center;
+
+    
+    box-shadow: 0 0 5px rgb(10, 218, 177),
+        0 0 25px rgb(10, 218, 177);
+
+}
+
+.btn-box:hover {
+    box-shadow: 0 0 5px rgb(10, 218, 177),
+        0 0 25px rgb(10, 218, 177), 0 0 50px rgb(10, 218, 177),
+        0 0 100px rgb(10, 218, 177), 0 0 200px rgb(10, 218, 177);
+} 
+
+.skillSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px 30px;
+    width:auto;
+}
+
+.skillSection .subject{
+    font-size: 16px;
+    font-weight: thin;
+    color: #aaabb0;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman' ;
+    
+}
+
+.skillSection .subject i{
+    font-size: 18px;
+}
+.section-heading {
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    margin-left: 50px;
+    color:#dedce1 ;
+	margin-bottom:50px;
+	margin-top:30px;
+}
+.section-heading span{
+    color: rgb(10, 218, 177);
+}
+
+.section-heading1 {
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    color:#dedce1 ;
+    margin-bottom: 30px;
+
+}
+
+.skillSection h2{
+	padding-right:270px;
+}
+.section-heading1 span{
+    color: rgb(10, 218, 177);
+}
+
+.progress_bar{
+    width: 80%;
+    height: 16px;
+    background-color: #2b2a2f;
+    padding: 4px 6px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #444;
+    border-radius: 15px;
+}
+
+.progress_line {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:  aqua;
+    box-shadow: -1px -1px 2px #2222
+                1px 1px 2px #111111;
+    border-radius: 15px
+}
+
+.progress_line::after{
+    position: absolute ;
+    text-align: end;
+    content: attr(value);
+    top: -35px;
+    right: 0px;
+    transform: translateX(-50%);
+    color: aqua;
+    font-size: 17px;
+}
+
+
+
+
+
+.experience-container {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 300%; 
+	height:auto;
+    padding-left: 100px;
+    padding-right: 130px; 
+    margin-top: 0;
+	
+    
+}
+
+.experience {
+    background-color: #fff;
+    padding:  20px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    height: 20%; /* Adjust the height as needed */
+    width: 100%;
+    border-color: rgb(101, 209, 214);
+    background: rgb(101, 209, 214);
+
+}
+.experience:hover {
+    transform: scale(1.1);
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+h2 {
+    font-size: 24px;
+}
+p {
+    margin: 10px 0;
+}
+strong {
+    font-weight: bold;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+	width:300px;
+	margin-left:400px;
+	padding-bottom:0;
+}
+/* Basic button styles */
+.button {
+    display: inline-block;
+        /* padding: 5px 5px; */
+        background: rgb(25, 238, 195);
+        border-radius: 15px;
+        font-size: 14px;
+        color: #081b29;
+        letter-spacing: 2px;
+        text-decoration: none;
+        font-weight: 600;
+        box-shadow: 0 0 5px rgb(10, 218, 177),
+            0 0 25px rgb(64, 69, 68);
+        margin-bottom: 5px;
+        border-color: #57eea7;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0077b6; /* New background color on hover */
+  }
+  
+  /* Button active (when clicked) effect */
+  button:active {
+    background-color: #005a8a; /* New background color when clicked */
+  }
+  

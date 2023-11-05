@@ -896,7 +896,8 @@ footer {
 
 
 
-@media (max-width:362) {
+ @media (max-width: 71.9mm) and (max-height: 153.5mm) {
+ 
 	 .container {
         flex-direction: column;
         padding-top: 7rem;
@@ -965,9 +966,7 @@ footer {
         margin-top: 1100px;
 	    
     }
-# projects .about-container{
-	flex-direction:columns;
-}
+
 
 
     .contact {

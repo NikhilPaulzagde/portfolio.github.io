@@ -807,7 +807,7 @@ footer {
     }
 
     .home-content {
-        padding: 40px 0px;
+        padding: 40px 0;
     }
 
     .header {
@@ -819,13 +819,12 @@ footer {
         overflow: scroll;
         background-color: #051129;
     }
+
     .head .nav  {
         top: 100px;
         text-align: left;
         margin-right: 20000px;
-
     }
-    
 
     .container .hero-pic {
         width: 250px;
@@ -854,34 +853,39 @@ footer {
         height: 30px;
         margin: 10px 10px;
     }
-    
 
     #about .section-p1 {
-		
         margin-top: 5px;
     }
 
     #experience .section-p1 {
-         margin-top: 300px; 
-    } 
-
-    #projects .section-p1 {
-         margin-top: 300px; 
+        margin-top: 300px;
     }
 
+    #projects .section-p1 {
+        margin-top: 700px;
+    }
 
     .contact {
         display: flex;
         flex-direction: column;
         align-items: left;
         text-align: left;
-        margin-top: 300px;
-
+        margin-top: 900px;
     }
-    #contact .contact-text h2 {
 
+    #contact .contact-text h2 {
         font-size: 60px;
         margin-bottom: 30px;
+    }
+
+    .contact-form form {
+        margin-top: 90px;
+    }
+
+    .footer {
+        margin-top: 700px;
+    }
 
     }
 

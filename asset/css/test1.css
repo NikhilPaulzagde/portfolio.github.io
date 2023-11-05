@@ -896,7 +896,7 @@ footer {
 
 
 
-@media (width: 362px) and (height: 700px) {
+@media (max-width:362) {
 	 .container {
         flex-direction: column;
         padding-top: 7rem;

@@ -963,7 +963,11 @@ footer {
 
     #projects .section-p1 {
         margin-top: 1100px;
+	    
     }
+# projects .about-container{
+	flex-direction:columns;
+}
 
 
     .contact {

@@ -892,7 +892,7 @@ footer {
 		
 		max-width:auto;
 		min-width:10px;
-		margin-left:20px;
+		margin-left:40px;
 	}
 	#about .section-p1 
 	{font-size:12px;
@@ -964,6 +964,7 @@ footer {
 		
 	}
 	#experience {
+		margin-left:20px;
 		margin-top:800px;
 		
 		min-width:250px;
@@ -989,6 +990,7 @@ footer {
 		margin-top:900px;
 		
 		min-width:250px;
+		margin-left:40px;
 
 	}
 	
@@ -1013,6 +1015,8 @@ footer {
         margin-top: 1150px;
 		min-width:250px;
 		max-width:auto;
+
+	margin-left:40px;
 		
 
     }
@@ -1026,11 +1030,11 @@ footer {
     .contact-form form {
         margin-top: 90px;
 		min-width:275px;
-		margin-left:20px;
+		margin-left:40px;
     }
 
     .footer {
-		margin-left:1px;
+		margin-left:30px;
 
 		text-align:center;
         margin-top: 1000px;
